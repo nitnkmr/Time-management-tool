@@ -1,0 +1,36 @@
+.input{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid rgb(233, 118, 41);
+}
+input{
+    width: 30%;
+    height: 60%;
+    padding-left: 10px;
+    color: black;
+    background-color: rgb(231, 231, 231);
+    border: 2px solid rgb(233, 118, 41);
+    border-radius: 10px;
+}
+#button{
+    width: 20%;
+    height: 65%;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 118, 41);
+    border: 2px solid rgb(233, 118, 41);
+    border-radius: 10px;
+}
+#button:active{
+    width: 20%;
+    height: 65%;
+    padding-left: 10px;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+    background-color: rgb(233, 118, 41);
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+}
