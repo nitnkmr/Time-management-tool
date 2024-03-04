@@ -1,0 +1,21 @@
+.container{
+    height: 80vh;
+    width: 100vw;
+    background-color: grey;
+
+}
+.cardHeader{
+    background-color: antiquewhite;
+    border-bottom: 2px solid rgb(90, 86, 86);
+}
+.cardBody{
+    height: 30px;
+    background-color: rgb(223, 184, 133);
+    border-bottom: 1px solid rgb(90, 86, 86);
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
